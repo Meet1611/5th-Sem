@@ -1,25 +1,26 @@
+import java.util.*;
 
-import java.util.ArrayList;
-import java.util.Scanner;
-
-public class DFS {
-    public static void dfsRec(ArrayList<ArrayList<Integer>> adj, boolean[] visited, int node, ArrayList<Integer> ans) {
-        visited[node] = true;
-        ans.add(node);
-
-        for(int i: adj.get(node)) {
-            if(!visited[i]) {
-                dfsRec(adj, visited, i, ans);
-            }
-        }
-    }
-
-    public static ArrayList<Integer> dfs(ArrayList<ArrayList<Integer>> adj) {
+public class BFS {
+    public static ArrayList<Integer> bfs(ArrayList<ArrayList<Integer>> adj) {
         boolean[] visited = new boolean[adj.size()];
         ArrayList<Integer> ans = new ArrayList<>();
-        
-        dfsRec(adj, visited, 0, ans);
-        
+        Queue<Integer> queue = new LinkedList<>();
+        queue.add(0); // Starting BFS from node 0
+        visited[0] = true;
+        ans.add(0);
+
+        while(!queue.isEmpty()) {
+            int node = queue.poll();
+            visited[node] = true;
+
+            for(int neighbor : adj.get(node)) {
+                if(!visited[neighbor]) {
+                    visited[neighbor] = true;
+                    queue.add(neighbor);
+                    ans.add(neighbor);
+                }
+            }
+        }
         return ans;
     }
 
@@ -48,12 +49,10 @@ public class DFS {
             adj.get(y).add(x);
         }
 
-
-        ArrayList<Integer> ans = dfs(adj);
-        System.out.println("DFS Traversal: ");
+        ArrayList<Integer> ans = bfs(adj);
+        System.out.println("BFS Traversal: ");
         for (int i = 0; i < ans.size(); i++) {
             System.out.print(ans.get(i) + " ");
         }
-        sc.close();
     }
 }

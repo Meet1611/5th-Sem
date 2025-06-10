@@ -47,5 +47,6 @@ class Adjcency {
         //     }
         //     System.out.println();
         // }
+        sc.close();
     }
 }
