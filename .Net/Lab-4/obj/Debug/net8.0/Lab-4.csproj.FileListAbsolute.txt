@@ -1,0 +1,15 @@
+D:\B.Tech\5th Sem\5th Sem\.Net\Lab-4\bin\Debug\net8.0\Lab-4.exe
+D:\B.Tech\5th Sem\5th Sem\.Net\Lab-4\bin\Debug\net8.0\Lab-4.deps.json
+D:\B.Tech\5th Sem\5th Sem\.Net\Lab-4\bin\Debug\net8.0\Lab-4.runtimeconfig.json
+D:\B.Tech\5th Sem\5th Sem\.Net\Lab-4\bin\Debug\net8.0\Lab-4.dll
+D:\B.Tech\5th Sem\5th Sem\.Net\Lab-4\bin\Debug\net8.0\Lab-4.pdb
+D:\B.Tech\5th Sem\5th Sem\.Net\Lab-4\obj\Debug\net8.0\Lab-4.GeneratedMSBuildEditorConfig.editorconfig
+D:\B.Tech\5th Sem\5th Sem\.Net\Lab-4\obj\Debug\net8.0\Lab-4.AssemblyInfoInputs.cache
+D:\B.Tech\5th Sem\5th Sem\.Net\Lab-4\obj\Debug\net8.0\Lab-4.AssemblyInfo.cs
+D:\B.Tech\5th Sem\5th Sem\.Net\Lab-4\obj\Debug\net8.0\Lab-4.csproj.CoreCompileInputs.cache
+D:\B.Tech\5th Sem\5th Sem\.Net\Lab-4\obj\Debug\net8.0\Lab-4.sourcelink.json
+D:\B.Tech\5th Sem\5th Sem\.Net\Lab-4\obj\Debug\net8.0\Lab-4.dll
+D:\B.Tech\5th Sem\5th Sem\.Net\Lab-4\obj\Debug\net8.0\refint\Lab-4.dll
+D:\B.Tech\5th Sem\5th Sem\.Net\Lab-4\obj\Debug\net8.0\Lab-4.pdb
+D:\B.Tech\5th Sem\5th Sem\.Net\Lab-4\obj\Debug\net8.0\Lab-4.genruntimeconfig.cache
+D:\B.Tech\5th Sem\5th Sem\.Net\Lab-4\obj\Debug\net8.0\ref\Lab-4.dll
